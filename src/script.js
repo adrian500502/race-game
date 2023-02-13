@@ -1,6 +1,5 @@
 import './style.css';
 import * as THREE from 'three';
-import { ColorManagement } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { THREEx } from './util/THREEx.FullScreen.js';
 import { THREEx as THREEx2 } from './util/THREEx.KeyboardState';
@@ -10,6 +9,9 @@ import { GlitchPass } from 'three/examples/jsm/postprocessing/GlitchPass.js';
 import { Text } from 'troika-three-text';
 import gsap from 'gsap';
 import phrases from './phrases.js';
+
+// Color management settings
+THREE.ColorManagement.legacyMode = false;
 
 // Levels and difficulties buttons
 const levelElementsArray = [
@@ -45,9 +47,6 @@ for (let i = 0; i < difficultiesElementsArray.length; i++) {
       (difficultiesElementsArray[i].style.backgroundColor = 'black');
   });
 }
-
-// Color management settings
-ColorManagement.legacyMode = false;
 
 // Canvas element
 const canvas = document.getElementById('webgl');

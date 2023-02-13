@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128663;</text></svg>">
+  <title>Race Game</title>
+</head>
+
+<body>
+  <div class="interface">
+    <div id="timer">0.00</div>
+
+    <div class="container">
+      <div class="hearts-container">
+        <div class="heart" id="heart-1"></div>
+        <div class="heart" id="heart-2"></div>
+        <div class="heart" id="heart-3"></div>
+      </div>
+
+      <div class="buttons-container">
+        <div class="levels">
+          <div id="level-1">Level 1</div>
+          <div id="level-2">Level 2</div>
+          <div id="level-3">Level 3</div>
+        </div>
+
+        <div class="difficulties">
+          <div id="difficulty-beginner">Beginner</div>
+          <div id="difficulty-intermediate">Intermediate</div>
+          <div id="difficulty-advanced">Advanced</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="raw">
+        <div class="key" id="forward"></div>
+      </div>
+      <div class="raw">
+        <div class="key" id="leftward"></div>
+        <div class="key" id="backward"></div>
+        <div class="key" id="rightward"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-restart">
+    <div id="restart">Restart</div>
+  </div>
+
+  <canvas id="webgl"></canvas>
+</body>
+
+</html>

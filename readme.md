@@ -10,8 +10,8 @@ Wersja demonstracyjna gry dostępna pod adresem: https://race-game-ab.vercel.app
 
 Włącz:
 
-- W przeglądarce Chrome, opcję "Użyj akceleracji sprzętowej, gdy jest dostępna".
-- W przeglądarce Firefox, opcję "Korzystaj ze sprzętowego przyspieszania, jeśli jest dostępne".
+- W przeglądarce Chrome opcję "Użyj akceleracji sprzętowej, gdy jest dostępna".
+- W przeglądarce Firefox opcję "Korzystaj ze sprzętowego przyspieszania, jeśli jest dostępne".
 
 Do lokalnego odtworzenia, zainstaluj:
 
@@ -21,9 +21,8 @@ Do lokalnego odtworzenia, zainstaluj:
 
 Odtwórz poniższe czynności, aby pobrać zależności potrzebne do lokalnego wystartowania projektu:
 
-1. Sklonuj repozytorium: `git clone https://github.com/adrian500502/race-game.git`
-2. Przejdź do katalogu z projektem: `cd ścieżka/do/katalogu`
-3. Zainstaluj potrzebne pakiety zależności: `npm install`
+1. Przejdź w terminalu do katalogu z projektem: `cd ścieżka/do/katalogu`
+2. Zainstaluj potrzebne pakiety zależności: `npm install`
 
 ### Start aplikacji
 
